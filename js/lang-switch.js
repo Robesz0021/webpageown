@@ -42,12 +42,16 @@ var MLstrings = [
         
     },
     {
+        English: "Website ",
+        Magyar: "Weboldalam ",
+    },
+    {
         English: "Hello, my name is ",
         Magyar: "Hello az én nevem ",
     },
     {
-        English: "I'm a Junior Web Developer with extensive experience for over 2 years. My expertise is to create websites. Read more in my CV or in the About section.",
-        Magyar: "Junior webfejlesztő vagyok, több mint 2 éves tapasztalattal. Az én szakterületem a weboldal készítés. Bővebben az önéletrajzomban vagy a Névjegy rovatban.",
+        English: "I'm a Junior Web Developer with extensive experience for over 2 years. My expertise is to create websites. Read more in the About section.",
+        Magyar: "Junior webfejlesztő vagyok, több mint 2 éves tapasztalattal. Az én szakterületem a weboldal készítés. Bővebben az Rólam részben olvashatsz.",
     },
     {
         English: "About Me",
@@ -59,7 +63,7 @@ var MLstrings = [
     },
     {
         English: "Below you can read the most important information about me. You can find out more about my services in the service section. And if you're curious about my work, you can find it in the portfolio section.",
-        Magyar: "Az alábbiakban a legfontosabb tudnivalókat olvashatod rólam. Szolgáltatásaimról bővebben a Szolgáltatás rovatban tájékozódhat. Ha pedig kíváncsi vagy a munkáimra, a portfólió rovatban megtalálod.",
+        Magyar: "Az alábbiakban a legfontosabb tudnivalókat olvashatod rólam. Szolgáltatásaimról bővebben a Szolgáltatások részen tájékozódhat. Ha pedig kíváncsi vagy a munkáimra, a portfólió részen megtalálod.",
     },
     {
         English: "As you can see, I don’t have a degree yet, but that doesn’t mean that you can't give me a chance.",

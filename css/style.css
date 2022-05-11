@@ -164,6 +164,8 @@ ul {
   background: var(--skin-color);
   transition: all 0.3s ease;
   border: none;
+  margin-left: 60px;
+  margin-top: 40px;
 }
 
 .btn:hover {
@@ -198,7 +200,7 @@ ul {
   text-transform: capitalize;
 }
 
-.aside .logo a {
+.aside .logo p {
   color: var(--text-black-900);
   font-weight: 700;
   padding: 15px 20px;
@@ -207,12 +209,12 @@ ul {
   position: relative;
 }
 
-.aside .logo a span {
+.aside .logo p span {
   font-family: 'Patua One', cursive;
   font-size: 40px;
 }
 
-.aside .logo a::before {
+.aside .logo p::before {
   content: '';
   position: absolute;
   width: 20px;
@@ -223,7 +225,7 @@ ul {
   left: 0;
 }
 
-.aside .logo a::after {
+.aside .logo p::after {
   content: '';
   position: absolute;
   width: 20px;
@@ -457,7 +459,7 @@ h3.my-profession span {
   border-bottom: 1px solid var(--bg-black-50);
 }
 
-.about .about-content .personal-info .info-item p span {
+.about .about-content .personal-info .info-item p span a {
   font-weight: 400;
   color: var(--text-black-700);
   margin-left: 4px;
@@ -669,88 +671,6 @@ h3.my-profession span {
   line-height: 25px;
 }
 
-/*Working Process*/
-
-.working-process .container {
-  padding-bottom: 40px;
-}
-
-.working-process .wp-heading {
-  flex: 0 0 100%;
-  max-width: 100%;
-  margin-bottom: 40px;
-}
-
-.working-process .wp-heading h2 {
-  color: var(--text-black-900);
-  font-weight: 400;
-}
-
-.working-process .wp-item {
-  margin-bottom: 30px;
-  flex: 0 0 33.33%;
-  max-width: 33.33%;
-}
-
-.working-process .wp-item {
-  margin-bottom: 30px;
-  flex: 0 0 33.33%;
-  max-width: 33.33%;
-}
-
-.working-process .wp-item .w-p-inner {
-  background-color: var(--bg-black-100);
-  border: 1px solid var(--bg-black-50);
-  border-radius: 10px;
-  padding: 30px 15px;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-.working-process .wp-item .w-p-inner:hover {
-  box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
-}
-
-.working-process .wp-item .w-p-inner .icon {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto 30px;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-
-.working-process .wp-item .w-p-inner .icon .fas {
-  font-size: 40px;
-  line-height: 60px;
-  color: var(--skin-color);
-  transition: all 0.3s ease;
-}
-
-.working-process .wp-item .w-p-inner:hover .icon {
-  background: var(--skin-color);
-}
-
-.working-process .wp-item .w-p-inner:hover .icon .fas{
-  font-size: 20px;
-  color: #ffffff;
-}
-
-.working-process .wp-item .w-p-inner h4 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: var(--text-black-900);
-  font-weight: 700;
-  text-transform: capitalize;
-}
-
-.working-process .wp-item .w-p-inner p {
-  font-size: 16px;
-  color: var(--text-black-700);
-  line-height: 25px;
-}
-
 /*Portfolio*/
 .portfolio .container {
   padding-bottom: 40px;
@@ -824,7 +744,7 @@ h3.my-profession span {
   margin: 15px 0 5px;
 }
 
-.contact .contact-info-item p {
+.contact .contact-info-item p a {
   font-size: 16px;
   line-height: 25px;
   color: var(--text-black-700);
@@ -946,7 +866,8 @@ h3.my-profession span {
 
 .lang-select-class select {
   border-radius: 20px;
-  padding: 10px;
+  margin-bottom: 10px;
+  padding-left: 30px;
   background-color: var(--bg-black-100);
   color: var(--text-black-700);
 }
