@@ -200,7 +200,7 @@ ul {
   text-transform: capitalize;
 }
 
-.aside .logo p {
+.aside .logo a {
   color: var(--text-black-900);
   font-weight: 700;
   padding: 15px 20px;
@@ -209,12 +209,12 @@ ul {
   position: relative;
 }
 
-.aside .logo p span {
+.aside .logo a span {
   font-family: 'Patua One', cursive;
   font-size: 40px;
 }
 
-.aside .logo p::before {
+.aside .logo a::before {
   content: '';
   position: absolute;
   width: 20px;
@@ -225,7 +225,7 @@ ul {
   left: 0;
 }
 
-.aside .logo p::after {
+.aside .logo a::after {
   content: '';
   position: absolute;
   width: 20px;
@@ -861,6 +861,14 @@ h3.my-profession span {
   .about .about-content .personal-info {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+
+  .home .home-info p,
+  .home .home-info .hello p,
+  .home .home-info .hello p span,
+  .home .home-info .my-profession p, 
+  .home .home-info .my-profession span {
+    font-size: 15px;
   }
 }
 

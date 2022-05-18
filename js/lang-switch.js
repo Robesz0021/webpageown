@@ -63,7 +63,7 @@ var MLstrings = [
     },
     {
         English: "Below you can read the most important information about me. You can find out more about my services in the service section. And if you're curious about my work, you can find it in the portfolio section.",
-        Magyar: "Az alábbiakban a legfontosabb tudnivalókat olvashatod rólam. Szolgáltatásaimról bővebben a Szolgáltatások részen tájékozódhat. Ha pedig kíváncsi vagy a munkáimra, a portfólió részen megtalálod.",
+        Magyar: "Az alábbiakban a legfontosabb tudnivalókat olvashatod rólam. Szolgáltatásaimról bővebben a Szolgáltatások részben tájékozódhat. Ha pedig kíváncsi vagy a munkáimra, a portfólió részen megtalálod.",
     },
     {
         English: "As you can see, I don’t have a degree yet, but that doesn’t mean that you can't give me a chance.",
