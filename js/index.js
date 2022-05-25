@@ -74,3 +74,13 @@ const nav = document.querySelector(".nav"),
                 allSection[i].classList.toggle("open");
             }
         }
+
+function emailto() {
+    const mail = document.getElementById("click");
+    mail.href = "mailto:robertgyozowebdev@gmail.com";
+}
+
+function emailto2() {
+    const mail2 = document.getElementById("click2");
+    mail2.href = "mailto:robertgyozowebdev@gmail.com";
+}
