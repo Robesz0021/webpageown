@@ -62,6 +62,27 @@ const nav = document.querySelector(".nav"),
         }
     }
 
+    
+const btn = document.querySelector(".btn-2");
+btn.addEventListener("click", () => {
+    const serv = document.getElementById("serv");
+    const websect = document.getElementById("service1");
+    const service = document.getElementById("service");
+    service.classList.remove("active");
+    serv.classList.add("active");
+    websect.classList.add("active");
+})
+
+const btn2 = document.querySelector(".btn-3");
+btn2.addEventListener("click", () => {
+    const serv2 = document.getElementById("serv");
+    const websect2 = document.getElementById("service2");
+    const service2 = document.getElementById("service");
+    service2.classList.remove("active");
+    serv2.classList.add("active");
+    websect2.classList.add("active");
+})
+
     const navTogglerBtn = document.querySelector(".nav-toggler"),
         aside = document.querySelector(".aside");
         navTogglerBtn.addEventListener("click", () => {

@@ -168,6 +168,34 @@ ul {
   margin-top: 40px;
 }
 
+.btn-2 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+  color: white;
+  border-radius: 40px;
+  display: inline-block;
+  white-space: nowrap;
+  background: var(--skin-color);
+  transition: all 0.3s ease;
+  border: none;
+  margin-top: 40px;
+}
+
+.btn-3 {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 35px;
+  color: white;
+  border-radius: 40px;
+  display: inline-block;
+  white-space: nowrap;
+  background: var(--skin-color);
+  transition: all 0.3s ease;
+  border: none;
+  margin-top: 40px;
+}
+
 .btn:hover {
   transform: scale(1.05);
 } 
