@@ -9,15 +9,9 @@ window.addEventListener("scroll", () => {
     }
 })
 
-const alternateStyles = document.querySelectorAll(".alternate-style");
+const style = document.getElementsByClassName("style").item(0);
 function setActiveStyle(color) {
-    alternateStyles.forEach((style) => {
-        if (color === style.getAttribute("title")) {
-            style.removeAttribute("disabled");
-        } else {
-            style.setAttribute("disabled","true");
-        }
-    })
+    style.href = `./css/skins/${color}.css`
 }
 
 const dayNight = document.querySelector(".day-night");
