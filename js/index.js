@@ -68,6 +68,12 @@ btn.addEventListener("click", () => {
     const serv = document.getElementById("serv");
     const websect = document.getElementById("service1");
     const service = document.getElementById("service");
+    for(let j = 0; j < totalNavList; j++) {
+        if(navList[j].querySelector("a").classList.contains("active")) {
+            addBackSection(j);
+        }
+        navList[j].querySelector("a").classList.remove("active")
+    }
     service.classList.remove("active");
     serv.classList.add("active");
     websect.classList.add("active");
