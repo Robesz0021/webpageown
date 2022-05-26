@@ -890,6 +890,10 @@ h3.my-profession span {
     flex: 0 0 100%;
     max-width: 100%;
   }
+  .ifyou::after{
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 @media (max-width:767px){
@@ -923,3 +927,65 @@ h3.my-profession span {
   background-color: var(--bg-black-100);
   color: var(--text-black-700);
 }
+
+.website-title2 {
+  margin-top: 60px;
+  margin-bottom: 3px;
+  font-size: 24px;
+  color: var(--text-black-900);
+}
+
+.website-text {
+  font-size: 18px;
+  color: var(--text-black-700);
+}
+
+.web-info {
+  color: var(--text-black-700);
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
+
+.web-info-spec {
+  margin-top: 2px;
+  font-size: 18px;
+  color: var(--text-black-700);
+}
+
+.web-info-spec span {
+  font-weight: bolder;
+  font-size: 20px;
+  color: var(--text-black-700);
+}
+
+.ifyou {
+  font-size: 18px;
+  color: var(--text-black-700);
+  margin-top: 40px;
+  margin-bottom: -59px;
+}
+
+.ifyou::before {
+  content: '';
+  height: 4px;
+  width: 30px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+.ifyou::after {
+  content: '';
+  height: 4px;
+  width: 60px;
+  background-color: var(--skin-color);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-left: 15px;
+}
+
